@@ -20,3 +20,9 @@ AI 0, tidak memakai AI.
 - **Alat yang dipakai:** Gemini
 - **Tujuan penggunaan:** Meminta penjelasan struktur `if-else` bertingkat dari batas tertinggi ke terendah tanpa syarat ganda, penugasan ekspresi boolean langsung pada `bool lulus`, serta penggunaan `switch` pada `huruf_mutu[0]` bertipe `char` di `sinilai_v03.cpp`.
 - **Cara memeriksa kebenaran:** Mengompilasi ulang dengan flag `-Wall -Wextra -Wpedantic` hingga bebas error dan warning, lalu menguji ketujuh kasus batas (`83.975`, `80`, `79.9`, `60`, `59.9`, `50`, dan `30`) dan mencocokkannya dengan tabel uji pada modul.
+
+## Pertemuan 5 - Deklarasi AI
+- **Label:** AI 1
+- **Alat yang dipakai:** Gemini
+- **Tujuan penggunaan:** Meminta penjelasan struktur perulangan `do-while` untuk validasi jumlah mahasiswa, perulangan `for` dengan dua akumulator (`total_nilai` dan `jumlah_lulus`) di luar loop, serta penggunaan `getline(cin >> ws, nama)` untuk membersihkan sisa newline antar mahasiswa di `sinilai_v04.cpp`.
+- **Cara memeriksa kebenaran:** Mengompilasi ulang kode dengan flag `-Wall -Wextra -Wpedantic` hingga bebas error dan warning, lalu mengujinya dengan `./sinilai_v04 < contoh_masukan.txt` serta mencocokkan nilai akhir tiap mahasiswa dan rekap kelas dengan tabel modul.
