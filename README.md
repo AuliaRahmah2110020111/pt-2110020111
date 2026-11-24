@@ -32,3 +32,9 @@ AI 0, tidak memakai AI.
 - **Alat yang dipakai:** Gemini
 - **Tujuan penggunaan:** Meminta penjelasan pengaturan format kolom menggunakan `fixed`, `setprecision(2)`, `left`, `right`, dan `setw`, penggunaan `switch` pada `huruf_mutu[0]` untuk menghitung distribusi huruf mutu, pola pelacakan nilai tertinggi, serta perulangan bersarang untuk menggambar batang `#` pada `sinilai_v05.cpp`.
 - **Cara memeriksa kebenaran:** Mengompilasi ulang kode dengan flag `g++ -std=c++20 -Wall -Wextra -Wpedantic -g sinilai_v05.cpp -o sinilai_v05` hingga bebas error dan warning, lalu mengujinya dengan `./sinilai_v05 < contoh_masukan.txt` dan mencocokkan enam baris data mahasiswa, laporan rekap kelas, serta grafik batang sebaran huruf mutu dengan tabel modul.
+
+## Pertemuan 7 - Deklarasi AI
+- **Label:** AI 1
+- **Alat yang dipakai:** Gemini
+- **Tujuan penggunaan:** Meminta penjelasan penanganan input salah tipe dan rentang menggunakan `cin.fail()`, `cin.clear()`, dan `cin.ignore(1000, '\n')`, validasi string karakter demi karakter dengan `isdigit`, serta algoritma bendera `awal_kata` untuk merapikan huruf kapital nama pada `sinilai_v06.cpp`.
+- **Cara memeriksa kebenaran:** Mengompilasi ulang kode dengan flag `g++ -std=c++20 -Wall -Wextra -Wpedantic -g sinilai_v06.cpp -o sinilai_v06` hingga bebas error dan warning, lalu mengujinya dengan `./sinilai_v06 < contoh_masukan.txt` yang berisi skenario masukan jebakan (baris kosong, `r2d2`, `abc`, `120`, dan huruf acak) serta memastikan laporan akhir tetap identik dengan v0.5.
